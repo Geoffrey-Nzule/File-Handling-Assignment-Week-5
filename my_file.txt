@@ -1,0 +1,11 @@
+# Open the file in write mode
+with open("my_file.txt", "w") as file:
+    # Writing lines with a mix of strings and numbers
+    file.write("Line 1: I was born in 1959.\n")
+    file.write("Line 2: Kenya has  approximately 50 million people\n")
+    file.write("Line 3: My favorite number is 15, but I ended up having  42.\n")
+
+print("Text with strings and numbers has been written to the file.")
+Fourth line: Today is August 1st.
+Fifth line: My lucky number is 125.
+Sixth line: I have visited 3 countries in the past one year.
